@@ -1,10 +1,13 @@
 /*global $, Waistband, myOrientationChangeFunction, document, window */
 /**
- * Waistband
- * Copyright (C) 2011 Foldi, LLC
- * 
- * @requires jquery.js
- * @author Vince Allen
+	Waistband
+	Copyright (C) 2011 Foldi, LLC
+	
+	@description Waistband is a simple utility that displays your browser's current width and height in a convenient top-left overlay.
+	@requires jquery.js
+	@author Vince Allen
+	@version 1.0
+ 
  */
 
 myOrientationChangeFunction = function () {
