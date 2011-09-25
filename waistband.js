@@ -4,7 +4,7 @@
 	Copyright (C) 2011 Foldi, LLC
 	
 	@description Waistband is a simple utility that displays your browser's current width and height in a convenient top-left overlay.
-	@requires jquery.js
+	@requires jQuery 1.0
 	@author Vince Allen
 	@version 1.0
  
