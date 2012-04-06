@@ -60,13 +60,15 @@ Waistband.Viewport = (function () {
 
 	div.setAttribute("id", "viewport");
 	div.setAttribute("style", "position: absolute; top: 0; left: 0; height: 55px; width: 110px; z-index: 1000; background: #fff; opacity: .75;");
-
+		
 	return {
 		div: div,
 		width: null,
 		height: null,
 		init: function () {
-			document.getElementsByTagName("body").item(0).appendChild(div);
+			var body = document.getElementsByTagName("body").item(0);
+			body.setAttribute("style", "overflow: hidden;");
+			body.appendChild(div);
 			this.setSize();
 			Waistband.AxisX.init();
 			Waistband.LabelAxisX.init();
