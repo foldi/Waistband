@@ -1,5 +1,5 @@
 Waistband is a simple utility that displays your browser's current width and height in a convenient top-left overlay and is useful for debugging web projects that use css media queries.
-test
+
 I created Waistband while working on a few responsive web design projects. When using media queries to apply style rules at specific widths, it kind of hard to confirm the query's accuracy if you can't see the current browser width. However, with Waistband running, your width and height is constantly updated and displayed as you resize your browser.
 
 How to Use
